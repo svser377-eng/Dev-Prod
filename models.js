@@ -182,7 +182,7 @@ const AppModel = {
       </svg>`,
       title: "Vehicular",
       desc:  "Tu vehículo protegido ante accidentes, robos y daños a terceros. Asistencia en carretera 24/7 con talleres autorizados en todo el país.",
-      features: ["Pérdida total y parcial", "Responsabilidad civil ampliada", "Asistencia en ruta 24/7", "Vehículo de reemplazo"],
+      features: ["Pérdida total y parcial", "Responsabilidad civil", "Asistencia 24/7", "Auto sustituto"],
     },
     {
       id: "salud",
