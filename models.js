@@ -214,7 +214,7 @@ const AppModel = {
         <path d="M32 34h8M36 30v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>`,
       title: "Individual / Empresarial",
-      desc:  "Planes flexibles tanto para personas como para empresas de todos los tamaños. Un solo asesor para todas tus necesidades de protección.",
+      desc:  "En Smartbroker protegemos lo que más valoras con soluciones integrales en seguros para personas y empresas. Salud, vida, vehículos, hogar y coberturas corporativas con el respaldo y la asesoría que necesitas.",
       features: ["Vida e invalidez individual", "Multirriesgo empresarial", "RC patronal y de explotación", "Programas colectivos para empleados"],
     },
   ],
