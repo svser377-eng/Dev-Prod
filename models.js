@@ -128,7 +128,7 @@ const AppModel = {
     "vehicular": {
       title: "Seguro Vehicular",
       desc: "Tu vehículo protegido ante accidentes, robos y daños a terceros. Asistencia en carretera disponible las 24 horas del día, los 7 días de la semana. Contamos con talleres autorizados en todo el país para una reparación rápida y de calidad.",
-      features: ["Pérdida total y pérdida parcial", "Responsabilidad civil obligatoria y ampliada", "Asistencia en carretera 24/7", "Vehículo de reemplazo", "Daños por fenómenos naturales"],
+      features: ["Pérdida total y pérdida parcial", "Responsabilidad civil", "Asistencia 24/7", "Auto sustituto", "Daños por desastres naturales"],
     },
     "empresarial": {
       title: "Seguro Empresarial",
