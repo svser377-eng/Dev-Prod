@@ -123,7 +123,7 @@ const AppModel = {
     },
     "salud": {
       title: "Seguro de Salud",
-      desc: "rotege tu salud y la de tu familia con soluciones integrales en asistencia médica nacional, internacional y adicional cobertura de gastos médicos mayores. Accede a atención médica, emergencias, hospitalización y respaldo financiero ante enfermedades o tratamientos de alto costo, con el acompañamiento y la tranquilidad que necesitas dentro y fuera del país.",
+      desc: "Protege tu salud y la de tu familia con soluciones integrales en asistencia médica nacional, internacional y adicional cobertura de gastos médicos mayores. Accede a atención médica, emergencias, hospitalización y respaldo financiero ante enfermedades o tratamientos de alto costo, con el acompañamiento y la tranquilidad que necesitas dentro y fuera del país.",
       features: ["Hospitalización y cirugías mayores", "Consultas ambulatorias ilimitadas", "Medicamentos recetados", "Maternidad y recién nacidos", "Emergencias en el exterior"],
     },
     "vehicular": {
