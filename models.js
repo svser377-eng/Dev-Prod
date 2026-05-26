@@ -29,10 +29,11 @@ const AppModel = {
 
   /* ───────── NAV ───────── */
   nav: [
-    { label: "Inicio",    href: "#inicio" },
-    { label: "Servicios", href: "#servicios" },
-    { label: "Nosotros",  href: "#nosotros" },
-    { label: "Contacto",  href: "#contacto" },
+    { label: "Inicio",           href: "#inicio" },
+    { label: "Servicios",        href: "#servicios" },
+    { label: "Nosotros",         href: "#nosotros" },
+    { label: "Contacto",         href: "#contacto" },
+    { label: "Acceso clientes",  href: "https://app.softseguros.com/login_asegurados/", target: "_blank" },
   ],
 
   /* ───────── HERO ───────── */
@@ -44,7 +45,7 @@ const AppModel = {
     cta:    { label: "Solicitar asesoría gratuita", href: "#contacto" },
     ctaAlt: { label: "Ver nuestros servicios",      href: "#servicios" },
     stats: [
-      { value: "9+",    label: "Años de experiencia" },
+      
       { value: "5.000+", label: "Clientes protegidos" },
       { value: "98%",    label: "Satisfacción" },
     ],
@@ -111,8 +112,8 @@ const AppModel = {
   serviceInfo: {
     "seguridad": {
       title: "Empresas de Seguridad",
-      desc: "Protegemos a las empresas de seguridad privada con soluciones integrales en seguros, diseñadas para respaldar a su personal, operaciones y patrimonio, cumpliendo con las disposiciones legales vigentes. Brindamos coberturas especializadas que aportan seguridad, continuidad y tranquilidad para el correcto desarrollo de sus actividades.",
-      features: ["Responsabilidad civil", "Accidentes personales para guardias y personal operativo", "Cobertura de vida", "Dinero y vaolores", "Protección de equipos y bienes", "Asistencia Médica"],
+      desc: "Soluciones especializadas para empresas del sector de seguridad privada. Cubrimos las operaciones, el personal en campo y la responsabilidad civil frente a clientes y terceros, adaptándonos a las exigencias regulatorias del sector.",
+      features: ["Responsabilidad civil de operaciones", "Accidentes personales del personal", "Infidelidad y deshonestidad de empleados", "Vehículos y equipos operativos", "RC patronal"],
     },
     /* Servicios de la sección principal */
     "vida": {
@@ -128,7 +129,7 @@ const AppModel = {
     "vehicular": {
       title: "Seguro Vehicular",
       desc: "Tu vehículo protegido ante accidentes, robos y daños a terceros. Asistencia en carretera disponible las 24 horas del día, los 7 días de la semana. Contamos con talleres autorizados en todo el país para una reparación rápida y de calidad.",
-      features: ["Pérdida total y pérdida parcial", "Responsabilidad civil", "Asistencia 24/7", "Auto sustituto", "Daños por desastres naturales"],
+      features: ["Pérdida total y pérdida parcial", "Responsabilidad civil obligatoria y ampliada", "Asistencia en carretera 24/7", "Vehículo de reemplazo", "Daños por fenómenos naturales"],
     },
     "empresarial": {
       title: "Seguro Empresarial",
@@ -182,7 +183,7 @@ const AppModel = {
       </svg>`,
       title: "Vehicular",
       desc:  "Tu vehículo protegido ante accidentes, robos y daños a terceros. Asistencia en carretera 24/7 con talleres autorizados en todo el país.",
-      features: ["Pérdida total y parcial", "Responsabilidad civil", "Asistencia 24/7", "Auto sustituto"],
+      features: [""],
     },
     {
       id: "salud",
@@ -191,8 +192,8 @@ const AppModel = {
         <path d="M24 16v16M16 24h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
       </svg>`,
       title: "Asistencia Médica",
-      desc:  "Protege tu salud y la de tu familia con cobertura médica integral y respaldo ante gastos médicos mayores. Accede a atención, emergencias, hospitalización y una amplia red de servicios de salud diseñados para brindarte tranquilidad y bienestar en todo momento.",
-      features: ["Hospitalización y cirugías", "Consultas ambulatorias", "Medicamentos recetados", "Emergencias en el exterior"],
+      desc:  "Acceso a la mejor atención médica sin preocuparte por los costos. Cobertura nacional e internacional con red médica premium.",
+      features: [""],
     },
     {
       id: "seguridad",
@@ -202,8 +203,8 @@ const AppModel = {
         <path d="M16 36c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
       </svg>`,
       title: "Empresas de Seguridad",
-      desc:  "Protegemos a las empresas de seguridad privada con soluciones integrales en seguros, diseñadas para respaldar a su personal, operaciones y patrimonio, cumpliendo con las disposiciones legales vigentes. Brindamos coberturas especializadas que aportan seguridad, continuidad y tranquilidad para el correcto desarrollo de sus actividades.",
-      features: ["Responsabilidad civil", "Accidentes personales para guardias y personal operativo", "Cobertura de vida", "Dinero y vaolores", "Protección de equipos y bienes", "Asistencia Médica"],
+      desc:  "Soluciones especializadas para empresas del sector de seguridad privada: protección de operaciones, personal y responsabilidad frente a terceros.",
+      features: [""],
     },
     {
       id: "individuales",
@@ -214,8 +215,8 @@ const AppModel = {
         <path d="M32 34h8M36 30v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>`,
       title: "Individual / Empresarial",
-      desc:  "En Smartbroker protegemos lo que más valoras con soluciones integrales en seguros para personas y empresas. Salud, vida, vehículos, hogar y coberturas corporativas con el respaldo y la asesoría que necesitas.",
-      features: ["Vida e invalidez individual", "Multirriesgo empresarial", "RC patronal y de explotación", "Programas colectivos para empleados"],
+      desc:  "Planes flexibles tanto para personas como para empresas de todos los tamaños. Un solo asesor para todas tus necesidades de protección.",
+      features: [""],
     },
   ],
 

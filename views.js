@@ -34,7 +34,7 @@ export const Views = {
         <nav class="header__nav" aria-label="Navegación principal">
           <ul role="list">
             ${nav.map(item => `
-              <li><a href="${item.href}" class="nav-link">${item.label}</a></li>
+              <li><a href="${item.href}" class="nav-link"${item.target ? ` target="${item.target}" rel="noopener noreferrer"` : ""}>${item.label}</a></li>
             `).join("")}
           </ul>
           <a href="https://api.whatsapp.com/send/?phone=593998661249&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">Solicitar asesoría</a>
@@ -50,7 +50,7 @@ export const Views = {
       <div class="mobile-menu" id="mobile-menu" aria-hidden="true" role="dialog" aria-label="Menú móvil">
         <ul role="list">
           ${nav.map(item => `
-            <li><a href="${item.href}" class="mobile-link">${item.label}</a></li>
+            <li><a href="${item.href}" class="mobile-link"${item.target ? ` target="${item.target}" rel="noopener noreferrer"` : ""}>${item.label}</a></li>
           `).join("")}
         </ul>
         <a href="https://api.whatsapp.com/send/?phone=593998661249&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="btn btn--primary mobile-cta">Solicitar asesoría</a>
@@ -142,7 +142,7 @@ export const Views = {
       <div class="container">
         <div class="section-header reveal">
           <span class="eyebrow">Nuestros servicios</span>
-          <h2 id="services-heading">Soluciones para cada<br>etapa de tu vida</h2>
+          <h2 id="services-heading">Somos tu mejor <br>aliado de seguros</h2>
           <p class="section-desc">Cada póliza es diseñada a medida, con asesoría personalizada y acceso a las mejores aseguradoras del mercado.</p>
         </div>
 
@@ -153,7 +153,7 @@ export const Views = {
               <h3 id="svc-${s.id}">${s.title}</h3>
               <p>${s.desc}</p>
               <ul class="service-card__features" role="list">
-                ${s.features.map(f => `<li>${f}</li>`).join("")}
+                ${(s.features || []).map(f => `<li>${f}</li>`).join("")}
               </ul>
               <a href="#" class="service-card__cta" data-svc="${s.id}" aria-label="Ver detalles de ${s.title}" aria-haspopup="dialog">
                 Ver detalles
@@ -177,10 +177,7 @@ export const Views = {
             <div class="about__img-placeholder">
               <img src="assets/Imagen_Equipo.jpeg" alt="Equipo SmartBroker" class="about__team-img" />
             </div>
-            <div class="about__accent-card">
-              <strong>9+</strong>
-              <span>Años protegiendo<br>lo que importa</span>
-            </div>
+            
           </div>
         </div>
 
@@ -666,7 +663,7 @@ export const Views = {
 
         <!-- Footer -->
         <div class="modal__footer">
-          <p class="modal__footer-note">SmartBroker · Corredora de seguros certificada · RUC 1792783933001</p>
+          <p class="modal__footer-note">SmartBroker · Cia Limitada </p>
           <div class="modal__footer-actions">
             <button class="btn btn--ghost modal-close-btn" id="svc-modal-close-bottom" aria-label="Cerrar">Cerrar</button>
           </div>
