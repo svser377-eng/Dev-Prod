@@ -183,7 +183,7 @@ const AppModel = {
       </svg>`,
       title: "Vehicular",
       desc:  "Tu vehículo protegido ante accidentes, robos y daños a terceros. Asistencia en carretera 24/7 con talleres autorizados en todo el país.",
-      features: [""],
+      /*features: [""],*/
     },
     {
       id: "salud",
@@ -193,7 +193,7 @@ const AppModel = {
       </svg>`,
       title: "Asistencia Médica",
       desc:  "Protege tu salud y la de tu familia con cobertura médica integral y respaldo ante gastos médicos mayores. Accede a atención, emergencias, hospitalización y una amplia red de servicios de salud diseñados para brindarte tranquilidad y bienestar en todo momento.",
-      features: [""],
+      /*features: [""],*/
     },
     {
       id: "seguridad",
@@ -204,7 +204,7 @@ const AppModel = {
       </svg>`,
       title: "Empresas de Seguridad",
       desc:  "Soluciones especializadas para empresas del sector de seguridad privada: protección de operaciones, personal y responsabilidad frente a terceros.",
-      features: [""],
+      /*features: [""],*/
     },
     {
       id: "individuales",
@@ -216,7 +216,7 @@ const AppModel = {
       </svg>`,
       title: "Individual / Empresarial",
       desc:  "Planes flexibles tanto para personas como para empresas de todos los tamaños. Un solo asesor para todas tus necesidades de protección.",
-      features: [""],
+      
     },
   ],
 
