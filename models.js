@@ -290,9 +290,9 @@ const AppModel = {
     subtext:  "Completa el formulario y un asesor te contactará en menos de 24 horas. Sin compromisos, sin presión.",
     info: [
       { icon: "📍", label: "Dirección", value: "Gaspar de Escalona N 38-39 y Av. Juan José de Villalengua Piso 2" },
-      { icon: "📞", label: "Teléfono",  value: "099 866 1249" },
-      { icon: "✉️", label: "Email",     value: "yordonez@smartbroker.com.ec" },
-      { icon: "🕐", label: "Horario",   value: "Lun–Vie: 8am–6pm" },
+      { icon: "📞", label: "Teléfono",  value: "099 866 1249 / 097 943 8015" },
+      { icon: "✉️", label: "Email",     value: "yordonez@smartbroker.com.ec / operaciones@smartbroker.com.ec" },
+      { icon: "🕐", label: "Horario",   value: "Lun–Vie: 8:30 am– 5:30 pm" },
     ],
     social: [
       { name: "LinkedIn",  href: "https://www.linkedin.com/company/smartbroker-ec/", icon: "in", cls: "social-btn--linkedin", target: "_blank", rel: "noopener noreferrer" },
