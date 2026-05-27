@@ -1372,13 +1372,14 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
 
 .footer__logo-img {
   width: auto;
-  max-width: 176px;
-  max-height: 53px;
+  max-width: 202px;
+  max-height: 61px;
   object-fit: contain;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
   display: block;
   margin-bottom: var(--sp-2);
+  margin-left: 12px;
 }
 
 .footer__brand .social-btn { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.1); color: rgba(255,255,255,.6); }
@@ -1545,6 +1546,9 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
   display: flex;
   align-items: center;
   gap: var(--sp-2);
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
 }
 
 .modal__icon {
@@ -1566,12 +1570,17 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
   font-weight: 700;
   color: var(--primary);
   letter-spacing: -0.01em;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .modal__subtitle {
   font-size: 0.75rem;
   color: var(--color-muted);
   margin-top: 1px;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .modal__close {
@@ -2356,5 +2365,25 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
   }
   .svc-modal .modal__body {
     padding: var(--sp-3);
+  }
+  /* Header: menos padding para dar más espacio al título */
+  .modal__header {
+    padding: var(--sp-2) var(--sp-3);
+    gap: var(--sp-2);
+  }
+  /* Ícono más pequeño en móvil */
+  .modal__icon {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  /* Botón cerrar no se encoge */
+  .modal__close {
+    flex-shrink: 0;
+  }
+  /* Título más compacto */
+  .modal__title {
+    font-size: 0.92rem;
+    line-height: 1.3;
   }
 }

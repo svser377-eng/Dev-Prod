@@ -372,7 +372,7 @@ export const Views = {
             <span class="logo-text">${brand.logo.text}</span>
             `}
           </a>
-          <p>${brand.description} · ${brand.tagline}</p>
+
           <div class="footer__social" aria-label="Redes sociales">
             ${contact.social.map(s => `
               <a href="${s.href}" class="social-btn social-btn--sm ${s.cls || ''}" aria-label="${s.name}" rel="noopener noreferrer">${s.icon}</a>
@@ -453,7 +453,7 @@ export const Views = {
         <div class="modal__header">
           <div class="modal__header-left">
             <div class="modal__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <img src="assets/sello-smartbroker-white.png" alt="SmartBroker" style="width:36px;height:36px;object-fit:contain;" />
             </div>
             <div>
               <div class="modal__title" id="modal-title">Política de Protección de Datos Personales</div>
@@ -631,7 +631,7 @@ export const Views = {
         <div class="modal__header svc-modal__header">
           <div class="modal__header-left">
             <div class="modal__icon svc-modal__icon" id="svcIcon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <img src="assets/sello-smartbroker-white.png" alt="SmartBroker" style="width:36px;height:36px;object-fit:contain;" />
             </div>
             <div>
               <div class="modal__title" id="svc-modal-title">Servicio</div>
