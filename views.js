@@ -320,6 +320,17 @@ export const Views = {
               <textarea id="cf-message" name="message" rows="4" placeholder="Cuéntanos qué necesitas…" required aria-required="true"></textarea>
               <span class="form-error" id="err-message" role="alert" aria-live="polite"></span>
             </div>
+            <div class="form-group form-group--full">
+              <label for="cf-attach">Adjunto <span class="form-label-hint">(opcional · PDF, JPG, PNG · máx. 500 KB)</span></label>
+              <div class="file-input-wrapper">
+                <input type="file" id="cf-attach" name="attach" accept=".pdf,.jpg,.jpeg,.png" aria-describedby="err-attach"/>
+                <label for="cf-attach" class="file-input-label" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M10 3v10M6 9l4-4 4 4"/><path d="M4 15h12" stroke-linecap="round"/></svg>
+                  <span id="file-name-display">Seleccionar archivo…</span>
+                </label>
+                <span class="form-error" id="err-attach" role="alert" aria-live="polite"></span>
+              </div>
+            </div>
             <button type="submit" class="btn btn--primary btn--lg btn--block" id="form-submit">
               <span id="btn-text">Enviar mensaje</span>
               <span id="btn-loading" hidden aria-hidden="true">
