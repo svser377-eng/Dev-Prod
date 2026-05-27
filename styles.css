@@ -1642,6 +1642,16 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
   flex-shrink: 0;
 }
 
+.modal__body .modal-feat-subtitle {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: var(--sp-3) 0 var(--sp-1);
+  padding: 0;
+  list-style: none;
+}
+
 .modal__body p,
 .modal__body li {
   font-size: 0.875rem;
@@ -1721,7 +1731,8 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
   }
   .modal {
     max-width: 100%;
-    max-height: 92vh;
+    max-height: calc(100dvh - 56px);
+    margin-top: 56px;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
     transform: translateY(100%);
   }
@@ -2354,15 +2365,6 @@ input.is-valid,   textarea.is-valid   { border-color: var(--success); }
 
 /* Asegurar que el popup de servicio no se desborde en móvil */
 @media (max-width: 600px) {
-  .modal {
-    margin: var(--sp-2);
-    max-height: 92vh;
-    border-radius: var(--radius-lg);
-  }
-  .modal-backdrop {
-    padding: var(--sp-2);
-    align-items: flex-end;
-  }
   .svc-modal .modal__body {
     padding: var(--sp-3);
   }
