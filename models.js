@@ -9,8 +9,8 @@ const AppModel = {
   /* ───────── BRAND ───────── */
   brand: {
     name: "SmartBroker",
-    tagline: "Tu mejor aliado",
-    description: "Corredora de seguros",
+    /*tagline: "Tu mejor aliado",
+    description: "Corredora de seguros",*/
     logo: {
       text: "Smart<span class='logo-accent'>Broker</span>",
       image: "assets/logo-transparent.png",      // Logo sin fondo
